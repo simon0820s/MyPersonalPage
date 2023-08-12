@@ -1,7 +1,10 @@
+import Nav from './components/Nav'
+import Hero from './sections/Hero'
+
 const App = () => {
   return (
-    <div>
-      <h1 className="">app</h1>
+    <div className='w-screen p-4 bg-zinc-900 text-neutral-100'>
+      <Hero />
     </div>
   )
 }
