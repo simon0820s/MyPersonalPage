@@ -1,6 +1,8 @@
 function MyCode() {
   return (
-    <section className="h-screen">
+    <section 
+      id="myCode"
+      className="h-screen">
       <h1>MyCode</h1>
     </section>
   )

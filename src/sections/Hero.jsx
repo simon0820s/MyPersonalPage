@@ -1,6 +1,8 @@
 const Hero = () => {
   return (
-    <section className="h-screen">
+    <section
+      id="hero"
+      className="h-screen">
       <h1>Im the hero</h1>
     </section>
   )
