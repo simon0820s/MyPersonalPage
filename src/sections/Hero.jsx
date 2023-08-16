@@ -3,7 +3,10 @@ const Hero = () => {
     <section
       id="hero"
       className="h-screen">
-      <h1>Im the hero</h1>
+      <div className="p-4">
+        <h1>Hello</h1>
+        <img src="src/assets/heroProgramer.jpg" alt="" />
+      </div>
     </section>
   )
 }
