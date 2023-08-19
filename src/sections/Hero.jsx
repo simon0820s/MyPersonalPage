@@ -26,10 +26,10 @@ const Hero = () => {
         <article className="flex flex-col items-start gap-2 text-3xl text-purple-200">
           <div className="flex flex-col font-rubik">
             <h1>I'm Web3</h1>
-            <h1>Fullstack developer</h1>
+            <h1>Fullstack ingineer</h1>
           </div>
 
-          <p className="text-sm font-medium text-zinc-400">Passionate full-stack web3, machine learning, and blockchain developer, deeply interested in the world of development since a young age, and currently studying computer science at the National University of Colombia.
+          <p className="text-sm font-medium text-zinc-400">Passionate full-stack web3, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying computer science at the National University of Colombia.
           </p>
         </article>
         <article className="flex flex-col items-start gap-4">
@@ -39,12 +39,12 @@ const Hero = () => {
               initial={{opacity: 0, y: 80, scale: 0.2}}
               animate={{opacity: 1, y: 0, scale: 1}}
               transition={{duraction: 0.3}}
-              className="w-1 bg-purple-200"></motion.span>
+              className="w-1 rounded-full bg-gradient-to-b from-purple-200"></motion.span>
             <ul className="flex flex-col gap-1 text-xs text-zinc-400">
-              <li>* seedling I’m currently learning Next, Solidity, React</li>
+              <li>* seedling I’m currently learning Next, Solidity, React, MongoDB</li>
               <li>* All of my projects are available at https://github.com/simon0820s
               </li>
-              <li>* Ask me about React, Next, ML, Blockchain</li>
+              <li>* Ask me about React, Next, ML, Blockchain, MongoDB</li>
               <li>* How to reach me simon0820s@gmail.com</li>
             </ul>
           </div>
