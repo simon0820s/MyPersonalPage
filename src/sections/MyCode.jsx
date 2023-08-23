@@ -3,7 +3,11 @@ function MyCode() {
     <section 
       id="myCode"
       className="h-screen">
-      <h1>MyCode</h1>
+      <div className="flex flex-col items-center p-8">
+        <article>
+          <h1 className="text-3xl font-rubik text-purple-200">About my Code </h1>
+        </article>
+      </div>
     </section>
   )
 }
