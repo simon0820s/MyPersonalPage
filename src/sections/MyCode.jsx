@@ -16,7 +16,7 @@ function MyCode() {
             <span className='bg-purple-200 w-full h-0.5 opacity-60'></span>
             <span className='bg-purple-200 w-2 h-2 rounded-full opacity-70'></span>
           </div>
-          <p className="text-end text-base font-medium opacity-80">
+          <p className="text-end text-sm font-medium opacity-80">
             I am a passionate and organized programmer with experience in modern technologies, coding, AI, and web design. My innovative and meticulous approach leads me to create readable and maintainable code. I always strive for excellence, optimization, and adaptability in both AI and web design.
           </p>
         </article>
@@ -24,7 +24,7 @@ function MyCode() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
           >
             <BsGithub className='text-purple-200 text-xl' />
           </motion.div>
