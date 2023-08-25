@@ -46,7 +46,7 @@ function Contact() {
           initial={{opacity:0}}
           whileInView={{opacity: 1}}
           transition={{duration: 1}}
-          className='w-36 right-0 top-20 opacity-90 absolute' src='src/assets/myContactHero.svg' />
+          className='w-36 right-0 top-20 opacity-90 absolute' src='./img/myContactHero.svg' />
       </div>
     </section>
   )
