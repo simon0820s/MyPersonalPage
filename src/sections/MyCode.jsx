@@ -7,8 +7,8 @@ function MyCode() {
     <section
       id="myCode"
       className="h-screen w-screen">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#27272A" d="M0,160L40,165.3C80,171,160,181,240,202.7C320,224,400,256,480,256C560,256,640,224,720,181.3C800,139,880,85,960,69.3C1040,53,1120,75,1200,106.7C1280,139,1360,181,1400,202.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-      <div className="flex flex-col gap-4 items-center px-8 bg-zinc-800 rounded-bl-full pt-16">
+     <img src="./img/waveCode.svg" alt="waveCode" /> 
+      <div className="flex flex-col gap-4 items-center px-8 bg-zinc-800 rounded-bl-full">
         <article className="flex flex-col items-end gap-2">
           <h1 className="text-2xl font-rubik text-purple-200">About my Code </h1>
           <div className='flex items-center w-full pl-10'>
@@ -36,7 +36,7 @@ function MyCode() {
         <motion.img
           animate={{ y: [0, 2, 0, -2, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className='mt-10 w-96' src="./img/myCodeHero2.svg" alt="myCodeHero" />
+          className='mt-10 w-96' src="./img/myCodeHero.svg" alt="myCodeHero" />
       </div>
     </section>
   )
