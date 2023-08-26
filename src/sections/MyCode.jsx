@@ -34,7 +34,7 @@ function MyCode() {
           </a>
         </div>
         <motion.img
-          animate={{ y: [0, 2, 0, -2, 0] }}
+          animate={{ y: [0, 5, 0, -5, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className='mt-10 w-96' src="./img/myCodeHero.svg" alt="myCodeHero" />
       </div>

@@ -7,7 +7,7 @@ function Contact() {
       id="contact"
       className="h-96 bg-zinc-800 w-screen">
       <img src='./img/waveContact.svg' alt='waveContact' />
-      <div className="absolute flex flex-col px-8 gap-2">
+      <div className="z-10 absolute flex flex-col px-8 gap-2">
         <h1 className="text-xl text-purple-200 font-rubik">About my contact</h1>
         <p className="opacity-80 text-sm font-medium">you can contact me by the following means.</p>
         <div className='z-10 flex items-center'>
@@ -43,11 +43,7 @@ function Contact() {
             className='z-10'><BsFacebook /></motion.a>
         </div>
       </div>
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className='h-3/4 opacity-70 float-right' src='./img/myContactHero.svg' />
+      <img className='h-2/3 opacity-70 float-right' src='./img/myContactHero.svg' />
     </section>
   )
 }
