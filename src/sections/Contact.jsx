@@ -42,12 +42,12 @@ function Contact() {
             href='https://www.facebook.com/profile.php?id=100085398301902' target='_blanc'
             className='z-10'><BsFacebook /></motion.a>
         </div>
-        <motion.img
-          initial={{opacity:0}}
-          whileInView={{opacity: 1}}
-          transition={{duration: 1}}
-          className='w-36 right-0 top-20 opacity-90 absolute' src='./img/myContactHero.svg' />
       </div>
+      <motion.img
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className='h-3/4 opacity-70 float-right' src='./img/myContactHero.svg' />
     </section>
   )
 }
