@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="h-72 bg-zinc-800 w-screen">
+      className="bg-zinc-800 w-screen">
       <img src='./img/waveContact.svg' alt='waveContact' />
       <div className="z-10 absolute flex flex-col px-8 gap-2">
         <h1 className="text-xl text-purple-200 font-rubik">About my contact</h1>
@@ -43,7 +43,7 @@ function Contact() {
             className='z-10'><BsFacebook /></motion.a>
         </div>
       </div>
-      <img className='h-2/3 opacity-70 float-right' src='./img/myContactHero.svg' />
+      <img className='h-56 opacity-70 float-right' src='./img/myContactHero.svg' />
     </section>
   )
 }
