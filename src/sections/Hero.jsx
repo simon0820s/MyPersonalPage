@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="h-screen">
-      <div className="bg-zinc-700 flex-1 flex flex-col justify-end w-screen pt-4">
+      className="h-screen w-screen">
+      <div className="bg-zinc-700 flex-1 flex flex-col justify-end w-screen pt-7">
         <header className="text-4xl px-8 text-zinc-900 font-rubik">
           <motion.div
             initial={{ opacity: 0 }}
