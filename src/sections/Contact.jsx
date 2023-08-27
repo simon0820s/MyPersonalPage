@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="h-96 bg-zinc-800 w-screen">
+      className="h-72 bg-zinc-800 w-screen">
       <img src='./img/waveContact.svg' alt='waveContact' />
       <div className="z-10 absolute flex flex-col px-8 gap-2">
         <h1 className="text-xl text-purple-200 font-rubik">About my contact</h1>

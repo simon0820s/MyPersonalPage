@@ -10,7 +10,7 @@ const App = () => {
       <Hero />
       <MyCode />
       <Contact />
-      <img className='fixed bottom-0 h-14 left-0 ml-4 opacity-70' src="./img/moonHero.svg" alt="moonHero" />
+      <img className='fixed bottom-0 h-14 left-0 ml-2 opacity-70' src="./img/moonHero.svg" alt="moonHero" />
     </div>
   )
 }
