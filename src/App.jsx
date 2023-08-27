@@ -10,6 +10,7 @@ const App = () => {
       <Hero />
       <MyCode />
       <Contact />
+      <img className='fixed bottom-0 h-10 left-0 mb-2 ml-6 opacity-80' src="./img/moonHero.svg" alt="moonHero" />
     </div>
   )
 }
