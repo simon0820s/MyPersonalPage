@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       id="hero"
       className="h-screen w-screen">
-      <div className="bg-zinc-700 flex-1 flex flex-col justify-end w-screen pt-7">
+      <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-7">
         <header className="text-4xl px-8 text-zinc-900 font-rubik">
           <motion.div
             initial={{ opacity: 0 }}
@@ -23,7 +23,7 @@ const Hero = () => {
         </header>
         <img className="w-full" src="./img/waveHero.svg" alt="waveHero" />
       </div>
-      <div className="flex-2 flex flex-col gap-10 p-8">
+      <div className="flex-2 flex flex-col gap-6 px-8">
         <article className="flex flex-col items-start gap-4 text-3xl text-purple-200">
           <div className="flex flex-col gap-1 font-rubik">
             <h1>I'm Web3</h1>
@@ -45,7 +45,7 @@ const Hero = () => {
                 className="w-0.5 h-full bg-gradient-to-b from-purple-200"></motion.span>
             </div>
 
-            <ul className="flex flex-col gap-4 text-xs text-zinc-400">
+            <ul className="flex flex-col gap-1 text-xs text-zinc-400">
               <li><span className="text-purple-200">*</span> seedling I’m currently learning Next, Solidity, React, MongoDB</li>
               <li><span className="text-purple-200">*</span> All of my projects are available at <span className="font-bold text-purple-200 opacity-80">https://github.com/simon0820s</span>
               </li>
