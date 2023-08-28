@@ -7,7 +7,7 @@ const Hero = () => {
       id="hero"
       className="h-screen w-screen">
       <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-7">
-        <header className="text-4xl px-8 text-zinc-900 font-rubik">
+        <header className="text-4xl sm:text-5xl px-8 sm:px-16 text-zinc-900 font-rubik">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -23,14 +23,14 @@ const Hero = () => {
         </header>
         <img className="w-full" src="./img/waveHero.svg" alt="waveHero" />
       </div>
-      <div className="flex-2 flex flex-col gap-6 px-8">
-        <article className="flex flex-col items-start gap-4 text-3xl text-purple-200">
+      <div className="flex-2 flex flex-col gap-6 px-8 sm:px-16">
+        <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl text-purple-200">
           <div className="flex flex-col gap-1 font-rubik">
-            <h1>I'm Web3</h1>
+            <h1>I'm Web</h1>
             <h1>Fullstack Ingineer</h1>
           </div>
 
-          <p className="text-sm font-medium text-zinc-400">Passionate full-stack web3, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-200 font-bold opacity-80">computer science</span> at the National University of Colombia.
+          <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-200 font-bold opacity-80">computer science</span> at the National University of Colombia.
           </p>
         </article>
         <article className="flex flex-col items-start gap-4">
@@ -45,7 +45,7 @@ const Hero = () => {
                 className="w-0.5 h-full bg-gradient-to-b from-purple-200"></motion.span>
             </div>
 
-            <ul className="flex flex-col gap-1 text-xs text-zinc-400">
+            <ul className="flex flex-col gap-1 sm:gap-4 text-xs sm:text-sm text-zinc-400">
               <li><span className="text-purple-200">*</span> seedling I’m currently learning Next, Solidity, React, MongoDB</li>
               <li><span className="text-purple-200">*</span> All of my projects are available at <span className="font-bold text-purple-200 opacity-80">https://github.com/simon0820s</span>
               </li>
