@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       id="hero"
       className="h-screen w-screen">
-      <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-7">
+      <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-4">
         <header className="text-4xl sm:text-5xl px-8 sm:px-16 text-zinc-900 font-rubik">
           <motion.div
             initial={{ opacity: 0 }}
@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
 
             <ul className="flex flex-col gap-1 sm:gap-4 text-xs sm:text-sm text-zinc-400">
-              <li><span className="text-purple-200">*</span> seedling I’m currently learning Next, Solidity, React, MongoDB</li>
+              <li><span className="text-purple-200">*</span> Seedling I’m currently learning Next, Solidity, React, MongoDB</li>
               <li><span className="text-purple-200">*</span> All of my projects are available at <span className="font-bold text-purple-200 opacity-80">https://github.com/simon0820s</span>
               </li>
               <li><span className="text-purple-200">*</span> Ask me about React, Next, ML, Blockchain, MongoDB</li>
