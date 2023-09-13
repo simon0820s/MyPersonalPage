@@ -30,27 +30,27 @@ const Hero = () => {
             <h1>Fullstack Ingineer</h1>
           </div>
 
-          <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-200 font-bold opacity-80">computer science</span> at the National University of Colombia.
+          <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-400 font-bold opacity-80">computer science</span> at the National University of Colombia.
           </p>
         </article>
         <article className="flex flex-col items-start gap-4">
           <h1 className="font-rubik text-xl text-purple-200">About Me</h1>
           <div className="flex gap-4 pl-2">
             <div className="flex flex-col items-center">
-              <span className="w-2 h-2 rounded-full bg-purple-200"></span>
+              <span className="w-2 h-2 rounded-full bg-purple-100"></span>
               <motion.span
                 initial={{ opacity: 0, y: -80, scale: 0.2 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duraction: 0.3 }}
-                className="w-0.5 h-full bg-gradient-to-b from-purple-200"></motion.span>
+                className="w-0.5 h-full bg-gradient-to-b from-purple-100"></motion.span>
             </div>
 
             <ul className="flex flex-col gap-1 sm:gap-4 text-xs sm:text-sm text-zinc-400">
               <li><span className="text-purple-200">*</span> Seedling I’m currently learning Next, Solidity, React, MongoDB</li>
-              <li><span className="text-purple-200">*</span> All of my projects are available at <span className="font-bold text-purple-200 opacity-80">https://github.com/simon0820s</span>
+              <li><span className="text-purple-200">*</span> All of my projects are available at <span className="font-bold text-purple-400 opacity-80">https://github.com/simon0820s</span>
               </li>
               <li><span className="text-purple-200">*</span> Ask me about React, Next, ML, Blockchain, MongoDB</li>
-              <li><span className="text-purple-200">*</span> How to reach me <span className="font-bold text-purple-200 opacity-80">simon0820s@gmail.com</span></li>
+              <li><span className="text-purple-200">*</span> How to reach me <span className="font-bold text-purple-400 opacity-80">simon0820s@gmail.com</span></li>
             </ul>
           </div>
         </article>

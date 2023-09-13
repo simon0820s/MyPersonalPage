@@ -11,10 +11,10 @@ function Contact() {
         <h1 className="text-xl sm:text-2xl text-purple-200 font-rubik">About my contact</h1>
         <p className="opacity-80 text-sm sm:text-base font-medium">You can contact me by the following means.</p>
         <div className='z-10 flex items-center'>
-          <span className='bg-purple-200 w-2 h-2 rounded-full' />
-          <span className='w-3/4 h-0.5 bg-gradient-to-r from-purple-200' />
+          <span className='bg-purple-100 w-2 h-2 rounded-full' />
+          <span className='w-3/4 h-0.5 bg-gradient-to-r from-purple-100' />
         </div>
-        <div className="flex mt-2 text-purple-200 text-2xl sm:text-3xl gap-2">
+        <div className="flex mt-2 text-purple-300 text-2xl sm:text-3xl gap-2">
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

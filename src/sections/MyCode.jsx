@@ -12,9 +12,9 @@ function MyCode() {
         <article className="flex flex-col items-end gap-2">
           <h1 className="text-2xl sm:text-4xl font-rubik text-purple-200">About my Code </h1>
           <div className='flex items-center w-full pl-10'>
-            <span className='bg-purple-200 w-2 h-2 rounded-full opacity-70'></span>
-            <span className='bg-purple-200 w-full h-0.5 opacity-60'></span>
-            <span className='bg-purple-200 w-2 h-2 rounded-full opacity-70'></span>
+            <span className='bg-purple-100 w-2 h-2 rounded-full opacity-70'></span>
+            <span className='bg-purple-100 w-full h-0.5 opacity-60'></span>
+            <span className='bg-purple-100 w-2 h-2 rounded-full opacity-70'></span>
           </div>
           <p className="text-end text-sm sm:text-base font-medium opacity-80">
             I am a passionate and organized programmer with experience in modern technologies, coding, AI, and web design. My innovative and meticulous approach leads me to create readable and maintainable code. I always strive for excellence, optimization, and adaptability in both AI and web design.
@@ -26,11 +26,11 @@ function MyCode() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <BsGithub className='text-purple-200 text-xl sm:text-2xl' />
+            <BsGithub className='text-purple-300 text-xl sm:text-2xl' />
           </motion.div>
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
-            className='flex gap-1 items-center p-1 text-xs font-bold border-2 border-purple-200 text-purple-200 rounded-sm'>
-            Look at my work<FaArrowRightLong className='text-xs text-purple-200' />
+            className='flex gap-1 items-center p-1 text-xs font-bold border-2 border-purple-300 text-purple-300 rounded-sm'>
+            Look at my work<FaArrowRightLong className='text-xs text-purple-300' />
           </a>
         </div>
         <motion.img
