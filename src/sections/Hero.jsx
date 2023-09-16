@@ -6,22 +6,25 @@ const Hero = () => {
     <section
       id="hero"
       className="h-screen w-screen">
-      <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-4">
-        <header className="text-4xl sm:text-5xl px-8 sm:px-16 text-zinc-900 font-rubik">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duraction: 0.3 }}>
-            <h1>Hi!</h1>
-            <h1>My name is</h1>
-          </motion.div>
-          <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duraction: 0.3, delay: 0.1 }}
-            className="text-purple-200">Simón</motion.h1>
+      <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-4 pb-0">
+        <header className="flex items-center justify-between text-4xl sm:text-5xl px-8 sm:px-16 text-zinc-900 font-rubik">
+          <div className="flex flex-col gap-2">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duraction: 0.3 }}>
+              <h1>Hi!</h1>
+              <h1>My name is</h1>
+            </motion.div>
+            <motion.h1
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duraction: 0.3, delay: 0.1 }}
+              className="text-purple-200">Simón</motion.h1>
+          </div>
+          <img src="./img/heroHero.svg" alt="heroHeroSVG" className="hidden sm:block w-40 lg:w-52" />
         </header>
-        <img className="w-full" src="./img/waveHero.svg" alt="waveHero" />
+        <img className="w-full h-full" src="./img/waveHero.svg" alt="waveHero" />
       </div>
       <div className="flex-2 flex flex-col gap-6 px-8 sm:px-16">
         <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl text-purple-200">
