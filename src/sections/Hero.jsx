@@ -33,7 +33,7 @@ const Hero = () => {
             <h1>Fullstack Ingineer</h1>
           </div>
 
-          <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-400 font-bold opacity-80">Computer science</span> at the National University of Colombia.
+          <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-400 font-extrabold opacity-80">Computer science</span> at the National University of Colombia.
           </p>
         </article>
         <article className="flex flex-col items-start gap-4">
