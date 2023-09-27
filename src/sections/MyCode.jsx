@@ -6,10 +6,10 @@ function MyCode() {
   return (
     <section
       id="myCode"
-      className="h-screen w-screen">
+      className="h-auto w-screen">
      <img src="./img/waveCode.svg" alt="waveCode" /> 
-      <div className="flex flex-col gap-4 items-center px-8 sm:px-16 bg-zinc-800 rounded-bl-full">
-        <article className="flex flex-col items-end gap-2">
+      <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full">
+        <article className="flex flex-col items-end gap-2 xl:w-3/4">
           <h1 className="text-2xl sm:text-4xl font-rubik text-purple-200">About my Code </h1>
           <div className='flex items-center w-full pl-10'>
             <span className='bg-purple-100 w-2 h-2 rounded-full opacity-70'></span>
@@ -36,7 +36,7 @@ function MyCode() {
         <motion.img
           animate={{ y: [0, 5, 0, -5, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className='mt-10 w-96' src="./img/myCodeHero.svg" alt="myCodeHero" />
+          className='mt-10 w-96 md:w-3/5 xl:w-1/2' src="./img/myCodeHero.svg" alt="myCodeHero" />
       </div>
     </section>
   )

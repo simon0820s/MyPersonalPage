@@ -8,7 +8,7 @@ function Contact() {
       className="bg-zinc-800 w-screen">
       <img src='./img/waveContact.svg' alt='waveContact' />
       <div className="z-10 absolute flex flex-col px-8 gap-2">
-        <h1 className="text-xl sm:text-2xl text-purple-200 font-rubik">About my contact</h1>
+        <h1 className="text-xl sm:text-2xl xl:text-3xl text-purple-200 font-rubik">About my contact</h1>
         <p className="opacity-80 text-sm sm:text-base font-medium">You can contact me by the following means.</p>
         <div className='z-10 flex items-center'>
           <span className='bg-purple-100 w-2 h-2 rounded-full' />
@@ -43,7 +43,7 @@ function Contact() {
             className='z-10'><BsFacebook /></motion.a>
         </div>
       </div>
-      <img className='h-56 sm:h-64 opacity-70 float-right' src='./img/myContactHero.svg' />
+      <img className='h-56 sm:h-64 lg:h-72 xl:h-80 opacity-70 float-right' src='./img/myContactHero.svg' />
     </section>
   )
 }
