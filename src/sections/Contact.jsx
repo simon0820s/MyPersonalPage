@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsPinterest, BsFacebook, BsWhatsapp } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsPinterest, BsFacebook, BsWhatsapp, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 
 function Contact() {
@@ -41,6 +41,12 @@ function Contact() {
             transition={{ duration: 0.2, delay: 0.4 }}
             href='https://www.facebook.com/profile.php?id=100085398301902' target='_blanc'
             className='z-10'><BsFacebook /></motion.a>
+          <motion.a
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.2, delay: 0.4 }}
+            href='https://twitter.com/SimnArboleda4' target='_blanc'
+            className='z-10'><BsTwitter /></motion.a>
         </div>
       </div>
       <img className='h-56 sm:h-64 lg:h-72 xl:h-80 opacity-70 float-right' src='./img/myContactHero.svg' />
