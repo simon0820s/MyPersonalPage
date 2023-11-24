@@ -7,7 +7,7 @@ function MyCode() {
     <section
       id="myCode"
       className="h-auto w-screen">
-     <img src="./img/waveCode.svg" alt="waveCode" /> 
+      <img src="./img/waveCode.svg" alt="waveCode" />
       <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full">
         <article className="flex flex-col items-end gap-2 xl:w-3/4">
           <h1 className="text-2xl sm:text-4xl font-rubik text-purple-200">About my Code </h1>
@@ -33,10 +33,7 @@ function MyCode() {
             Look at my work<FaArrowRightLong className='text-xs text-purple-300' />
           </a>
         </div>
-        <motion.img
-          animate={{ y: [0, 5, 0, -5, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className='mt-10 w-96 md:w-3/5 xl:w-1/2' src="./img/myCodeHero.svg" alt="myCodeHero" />
+        <img className='code-hero mt-10 w-96 md:w-3/5 xl:w-1/2' src="./img/myCodeHero.svg" alt="myCodeHero" />
       </div>
     </section>
   )
