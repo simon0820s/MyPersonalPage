@@ -27,7 +27,7 @@ const Hero = () => {
         <img className="w-full h-full" src="./img/waveHero.svg" alt="waveHero" />
       </div>
       <div className="flex-2 flex h-auto">
-        <div className="flex-1 flex-col gap-6 px-8 sm:px-16">
+        <div className="flex-1 flex-col gap-20 px-8 sm:px-16">
           <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl text-purple-200">
             <div className="flex flex-col gap-1 font-rubik">
               <h1>I'm Web</h1>
@@ -37,7 +37,7 @@ const Hero = () => {
             <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-400 font-extrabold opacity-80">Computer science</span> at the National University of Colombia.
             </p>
           </article>
-          <article className="flex flex-col items-start gap-4">
+          <article className="flex flex-col mt-4 items-start gap-4">
             <h1 className="font-rubik text-xl text-purple-200">About Me</h1>
             <div className="flex gap-4 pl-2">
               <div className="flex flex-col items-center">
