@@ -6,6 +6,41 @@ html {
   scroll-behavior: smooth;
 }
 
+.code-button {
+  position: relative;
+  padding: 0.2rem 0.4rem;
+  border: 2px solid #D8B4FE;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: x-small;
+  color: #e1e1e1;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background-color: #27272A;
+}
+
+.code-button:hover {
+  color: rgb(19, 19, 19);
+}
+
+.code-button::before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 0.6px;
+  background: #D8B4FE;
+  box-shadow: 5px -5px #D8B4FE,
+              5px 5px #D8B4FE;
+}
+
+.code-button:hover::before {
+  width: 60%;
+}
+
+
 .code-hero {
   animation: float 3s ease-in-out infinite;
 }

@@ -21,16 +21,16 @@ function MyCode() {
           </p>
         </article>
         <div className='flex items-center justify-end w-full gap-2'>
-          <motion.div
+          {/**<motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <BsGithub className='text-purple-300 text-xl sm:text-2xl' />
-          </motion.div>
+          <BsGithub className='text-purple-300 text-xl sm:text-2xl' />
+  </motion.div>*/}
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
-            className='flex gap-1 items-center p-1 text-xs font-bold border-2 border-purple-300 text-purple-300 rounded-sm'>
-            Look at my work<FaArrowRightLong className='text-xs text-purple-300' />
+            className='code-button'>
+            Look at my work
           </a>
         </div>
         <img className='code-hero mt-10 w-96 md:w-3/5 xl:w-1/2' src="./img/myCodeHero.svg" alt="myCodeHero" />
