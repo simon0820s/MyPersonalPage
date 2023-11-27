@@ -29,7 +29,7 @@ function MyCode() {
           <BsGithub className='text-purple-300 text-xl sm:text-2xl' />
   </motion.div>*/}
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
-            className='code-button'>
+            className='code-button font-bold'>
             <span>Look at my work</span>
           </a>
         </div>
