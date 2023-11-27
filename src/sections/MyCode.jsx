@@ -30,7 +30,7 @@ function MyCode() {
   </motion.div>*/}
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
             className='code-button'>
-            Look at my work
+            <span>Look at my work</span>
           </a>
         </div>
         <img className='code-hero mt-10 w-96 md:w-3/5 xl:w-1/2' src="./img/myCodeHero.svg" alt="myCodeHero" />

@@ -17,10 +17,21 @@ html {
   letter-spacing: 1px;
   transition: 0.5s;
   background-color: #27272A;
+  transition-delay: 0s;
 }
 
 .code-button:hover {
+  transition-delay: 1.2s;
   color: rgb(19, 19, 19);
+  box-shadow: 0 0 10px #D8B4FE,
+              0 0 20px #D8B4FE,
+              0 0 30px #D8B4FE,
+              0 0 40px #D8B4FE;
+}
+
+.code-button span {
+  position: relative;
+  z-index: 10000;
 }
 
 .code-button::before {
@@ -34,10 +45,41 @@ html {
   background: #D8B4FE;
   box-shadow: 5px -5px #D8B4FE,
               5px 5px #D8B4FE;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
 }
 
 .code-button:hover::before {
   width: 60%;
+  height: 100%;
+  left: -2px;
+  box-shadow: 5px 0 0 #D8B4FE,
+              5px 0 0 #D8B4FE;
+  transition-delay: 0s, 0.5s, 1s, 1s;
+}
+
+.code-button::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 0.6px;
+  background: #D8B4FE;
+  box-shadow: -5px -5px #D8B4FE,
+              -5px 5px #D8B4FE;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
+}
+
+.code-button:hover::after {
+  width: 60%;
+  height: 100%;
+  right: -2px;
+  box-shadow: -5px 0 0 #D8B4FE,
+              -5px 0 0 #D8B4FE;
+  transition-delay: 0s, 0.5s, 1s, 1s;
 }
 
 
