@@ -20,14 +20,14 @@ function MyCode() {
             I am a passionate and organized programmer with experience in modern technologies, coding, AI, and web design. My innovative and meticulous approach leads me to create readable and maintainable code. I always strive for excellence, optimization, and adaptability in both AI and web design.
           </p>
         </article>
-        <div className='flex items-center justify-end w-full gap-2'>
-          {/**<motion.div
+        <div className='flex items-center justify-end w-full gap-4'>
+          <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-          <BsGithub className='text-purple-300 text-xl sm:text-2xl' />
-  </motion.div>*/}
+            <BsGithub className='text-gray-500 text-xl sm:text-2xl' />
+          </motion.div>
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
             className='code-button font-bold'>
             <span>Look at my work</span>
