@@ -1,5 +1,4 @@
 import { BsGithub } from 'react-icons/bs'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
 /* eslint-disable react/no-unescaped-entities */
 function MyCode() {
