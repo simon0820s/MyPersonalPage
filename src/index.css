@@ -11,10 +11,10 @@ html {
   padding: 0.2rem 0.4rem;
   border: 2px solid #D8B4FE;
   font-size: x-small;
-  color: #e1e1e1;
+  color: #E9D5FF;
   letter-spacing: 1px;
   border-radius: 2px;
-  transition: 0.001s;
+  transition: 0.01s;
   background-color: #27272A;
   transition-delay: 0s;
 }
@@ -30,7 +30,7 @@ html {
 
 .code-button span {
   position: relative;
-  z-index: 10000;
+  z-index: 40;
 }
 
 .code-button::before {
@@ -95,5 +95,22 @@ html {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+.shadow-heroCode {
+  border-radius: 100%;
+  animation: scale-shadow 3s ease-in-out infinite;
+}
+
+@keyframes scale-shadow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: translateY(1);
   }
 }
