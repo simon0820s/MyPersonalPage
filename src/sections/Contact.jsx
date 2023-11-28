@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsPinterest, BsFacebook, BsWhatsapp, BsTwitter } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsFacebook, BsWhatsapp, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 
 function Contact() {
@@ -30,11 +30,6 @@ function Contact() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.2 }}
             href='https://www.linkedin.com/in/sim%C3%B3n-arboleda-02b892247/' target='_blanc'> <BsLinkedin /></motion.a>
-          <motion.a
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.2, delay: 0.3 }}
-            href='https://pin.it/4PsRlv3' target='_blanc'><BsPinterest /></motion.a>
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
