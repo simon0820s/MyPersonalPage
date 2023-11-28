@@ -42,11 +42,7 @@ const Hero = () => {
             <div className="flex gap-4 pl-2">
               <div className="flex flex-col items-center">
                 <span className="w-2 h-2 rounded-full bg-purple-100"></span>
-                <motion.span
-                  initial={{ opacity: 0, y: -80, scale: 0.2 }}
-                  animate={{ opacity: 1, y: 0, scale: 1 }}
-                  transition={{ duraction: 0.3 }}
-                  className="w-0.5 h-full bg-gradient-to-b from-purple-100"></motion.span>
+                <span className="w-0.5 h-full bg-gradient-to-b from-purple-100"></span>
               </div>
 
               <ul className="flex flex-col gap-1 sm:gap-4 text-xs sm:text-sm text-zinc-400">

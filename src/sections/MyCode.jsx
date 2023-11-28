@@ -7,7 +7,7 @@ function MyCode() {
       id="myCode"
       className="h-auto w-screen pb-10">
       <img src="./img/waveCode.svg" alt="waveCode" />
-      <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full pt-10">
+      <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
         <article className="flex flex-col items-end gap-2 xl:w-3/4">
           <h1 className="text-2xl sm:text-4xl font-rubik text-purple-200">About my Code </h1>
           <div className='flex items-center w-full pl-10'>
