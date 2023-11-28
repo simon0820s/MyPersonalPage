@@ -32,7 +32,7 @@ function MyCode() {
             <span>Look at my work</span>
           </a>
         </div>
-        <div className='flex flex-col items-center gap-4 w-72 h-auto md:w-3/5 xl:w-1/2'>
+        <div className='flex flex-col items-center gap-4 w-72 h-auto md:w-3/5 xl:w-1/2 mt-16'>
           <img className='code-hero w-full' src="./img/myCodeHero.svg" alt="myCodeHero" />
           <span className='bg-gray-950 opacity-60 w-1/2 h-5 shadow-heroCode'></span>
         </div>

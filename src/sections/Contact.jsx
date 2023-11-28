@@ -44,7 +44,7 @@ function Contact() {
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.2, delay: 0.4 }}
+            transition={{ duration: 0.2, delay: 0.5 }}
             href='https://twitter.com/SimnArboleda4' target='_blanc'
             className='z-10'><BsTwitter /></motion.a>
         </div>
