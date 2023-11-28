@@ -16,9 +16,6 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.my-control:hover::before {
-  animation: pulse 1s ease-out;
-}
 
 @keyframes pulse {
   0% {
