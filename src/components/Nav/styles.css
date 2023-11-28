@@ -3,27 +3,32 @@
   position: relative;
 }
 
-.my-control::after {
+.my-control::before {
+  z-index: -1;
   content: "";
   position: absolute;
   width: 50%;
   height: 100%;
   background: #e9d5ff;
-  opacity: 0%;
+  opacity: 1;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.my-control:active::after {
+.my-control:hover::before {
   animation: pulse 1s ease-out;
 }
 
 @keyframes pulse {
-  20% {
-    opacity: 40%;
+  0% {
+    width: 50%;
+    height: 100%;
   }
-  90% {
+  20% {
+    opacity: 20%;
+  }
+  100% {
     width: 800%;
     height: 2500%;
     opacity: 0%;
