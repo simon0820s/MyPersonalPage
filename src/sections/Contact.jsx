@@ -33,13 +33,13 @@ function Contact() {
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.2, delay: 0.4 }}
+            transition={{ duration: 0.2, delay: 0.3 }}
             href='https://www.facebook.com/profile.php?id=100085398301902' target='_blanc'
             className='z-10'><BsFacebook /></motion.a>
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.2, delay: 0.5 }}
+            transition={{ duration: 0.2, delay: 0.4 }}
             href='https://twitter.com/SimnArboleda4' target='_blanc'
             className='z-10'><BsTwitter /></motion.a>
         </div>

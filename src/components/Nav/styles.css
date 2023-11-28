@@ -1,0 +1,15 @@
+.my-control:hover {
+  animation: vibe 3s ease-out;
+}
+
+@keyframes vibe {
+  0% {
+    box-shadow: 0px 0px 1000px #e9d5ff;
+  }
+  50% {
+    box-shadow: 0px 0px 100px #e9d5ff;
+  }
+  100% {
+    box-shadow: 0px 0px 1000px #e9d5ff;
+  }
+}
