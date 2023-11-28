@@ -4,7 +4,7 @@ export const WebContext = createContext()
 
 const WebContextProvider = ({children}) => {
 
-  const [principalColor, setPrincipalColor] = useState('#e9d5ff')
+  const [principalColor, setPrincipalColor] = useState('e9d5ff')
 
   return (
     <WebContext.Provider value={{

@@ -20,37 +20,37 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duraction: 0.3, delay: 0.1 }}
-              className="text-purple-200">Simón</motion.h1>
+              className="magic-text">Simón</motion.h1>
           </div>
           <img src="./img/heroHero.svg" alt="heroHeroSVG" className="w-28 sm:w-40 lg:w-52" />
         </header>
-        <img className="w-full h-full" src="./img/waveHero.svg" alt="waveHero" />
+        <img className="w-full h-full magic-hero" src="./img/waveHero.svg" alt="waveHero" />
       </div>
       <div className="flex-2 flex h-auto">
         <div className="flex-1 flex-col gap-20 px-8 sm:px-16">
-          <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl text-purple-200">
+          <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl magic-text">
             <div className="flex flex-col gap-1 font-rubik">
               <h1>I'm Web</h1>
               <h1>Fullstack Ingineer</h1>
             </div>
 
-            <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="text-purple-400 font-extrabold opacity-80">Computer science</span> at the National University of Colombia.
+            <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="magic-text font-extrabold opacity-80">Computer science</span> at the National University of Colombia.
             </p>
           </article>
           <article className="flex flex-col mt-4 items-start gap-4">
-            <h1 className="font-rubik text-xl text-purple-200">About Me</h1>
+            <h1 className="font-rubik text-xl magic-text">About Me</h1>
             <div className="flex gap-4 pl-2">
               <div className="flex flex-col items-center">
-                <span className="w-2 h-2 rounded-full bg-purple-100"></span>
-                <span className="w-0.5 h-full bg-gradient-to-b from-purple-100"></span>
+                <span className="w-2 h-2 rounded-full magic-bg"></span>
+                <span className="w-0.5 h-full bg-gradient-to-b magic-gradient-b"></span>
               </div>
 
               <ul className="flex flex-col gap-1 sm:gap-4 text-xs sm:text-sm text-zinc-400">
-                <li><span className="text-purple-200">*</span> Seedling I’m currently learning Next, Solidity, React, MongoDB</li>
-                <li><span className="text-purple-200">*</span> All of my projects are available at <span className="font-bold text-purple-400 opacity-80">https://github.com/simon0820s</span>
+                <li><span className="magic-text">*</span> Seedling I’m currently learning Next, Solidity, React, MongoDB</li>
+                <li><span className="magic-text">*</span> All of my projects are available at <span className="font-bold magic-text opacity-80">https://github.com/simon0820s</span>
                 </li>
-                <li><span className="text-purple-200">*</span> Ask me about React, Next, ML, Blockchain, MongoDB</li>
-                <li><span className="text-purple-200">*</span> How to reach me <span className="font-bold text-purple-400 opacity-80">simon0820s@gmail.com</span></li>
+                <li><span className="magic-text">*</span> Ask me about React, Next, ML, Blockchain, MongoDB</li>
+                <li><span className="magic-text">*</span> How to reach me <span className="font-bold magic-text opacity-80">simon0820s@gmail.com</span></li>
               </ul>
             </div>
           </article>

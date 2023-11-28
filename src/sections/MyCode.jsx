@@ -1,7 +1,12 @@
 import { BsGithub } from 'react-icons/bs'
 import { motion } from 'framer-motion'
+import { useContext } from 'react'
+import { WebContext } from '../Context'
 /* eslint-disable react/no-unescaped-entities */
 function MyCode() {
+
+  const context = useContext(WebContext)
+  
   return (
     <section
       id="myCode"
@@ -9,11 +14,11 @@ function MyCode() {
       <img src="./img/waveCode.svg" alt="waveCode" />
       <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
         <article className="flex flex-col items-end gap-2 xl:w-3/4">
-          <h1 className="text-2xl sm:text-4xl font-rubik text-purple-200">About my Code </h1>
+          <h1 className = {`text-2xl sm:text-4xl font-rubik magic-text`}>About my Code </h1>
           <div className='flex items-center w-full pl-10'>
-            <span className='bg-purple-100 w-2 h-2 rounded-full opacity-70'></span>
-            <span className='bg-purple-100 w-full h-0.5 opacity-60'></span>
-            <span className='bg-purple-100 w-2 h-2 rounded-full opacity-70'></span>
+            <span className='magic-bg w-2 h-2 rounded-full opacity-70'></span>
+            <span className='magic-bg w-full h-0.5 opacity-60'></span>
+            <span className='magic-bg w-2 h-2 rounded-full opacity-70'></span>
           </div>
           <p className="text-end text-sm sm:text-base font-medium opacity-80">
             I am a passionate and organized programmer with experience in modern technologies, coding, AI, and web design. My innovative and meticulous approach leads me to create readable and maintainable code. I always strive for excellence, optimization, and adaptability in both AI and web design.

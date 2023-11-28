@@ -10,18 +10,22 @@ const Nav = () => {
   const context = useContext(WebContext)
 
   useEffect(() => {
-    console.log(context.principalColor)
+    const delay = setTimeout(() => {
+      document.documentElement.style.setProperty('--primary-color', `#${context.principalColor}`)
+    }, 300)
+    
+    return () => clearTimeout(delay);
   }, [context])
 
   return (
     <div className="z-50 h-16 flex justify-center fixed w-screen bottom-0">
 
-      <img className='fixed bottom-0 h-14 sm:h-16 left-0 ml-2 opacity-70' src="../img/moonHero.svg" alt="moonHero" />
+      <img className='fixed bottom-0 h-14 sm:h-16 left-0 ml-2 opacity-70' src="" alt="navHero" />
 
       <div className="my-control flex items-center justify-center gap-3 sm:gap-10 bg-zinc-800 rounded-t-full border-gray-700 border-x-2 border-t-1 px-10 sm:px-16 pt-2 h-full">
-        <a onClick={() => context.setPrincipalColor('1')} href="#contact"><AiFillPhone className="text-zinc-400 text-2xl sm:text-4xl" /> </a>
-        <a onClick={() => context.setPrincipalColor('2')} href="#hero"><BiSolidHomeAlt2 className="text-zinc-400 text-2xl sm:text-4xl" /> </a>
-        <a onClick={() => context.setPrincipalColor('3')} href="#myCode"><FaCode className="text-zinc-400 text-2xl sm:text-4xl" /> </a>
+        <a onClick={() => context.setPrincipalColor('fe7272')} href="#contact"><AiFillPhone className="text-zinc-400 text-2xl sm:text-4xl" /> </a>
+        <a onClick={() => context.setPrincipalColor('e9d5ff')} href="#hero"><BiSolidHomeAlt2 className="text-zinc-400 text-2xl sm:text-4xl" /> </a>
+        <a onClick={() => context.setPrincipalColor('a1e0f7')} href="#myCode"><FaCode className="text-zinc-400 text-2xl sm:text-4xl" /> </a>
       </div>
     </div>
   )
