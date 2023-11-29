@@ -12,7 +12,6 @@
 }
 
 .my-control::before {
-  z-index: -1;
   content: "";
   position: absolute;
   width: 50%;

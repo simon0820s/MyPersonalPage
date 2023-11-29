@@ -22,7 +22,7 @@ const Hero = () => {
               transition={{ duraction: 0.3, delay: 0.1 }}
               className="magic-text">Simón</motion.h1>
           </div>
-          <img src="./img/heroHero.svg" alt="heroHeroSVG" className="w-28 sm:w-40 lg:w-52" />
+          <img src="./img/heroHero/heroHero_p.svg" alt="heroHeroSVG" className="w-28 sm:w-40 lg:w-52" />
         </header>
         <img className="w-full h-full magic-hero" src="./img/waveHero.svg" alt="waveHero" />
       </div>

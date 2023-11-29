@@ -44,7 +44,7 @@ function Contact() {
             className='z-10'><BsTwitter /></motion.a>
         </div>
       </div>
-      <img className='h-48 sm:h-64 lg:h-72 xl:h-80 opacity-70 float-right' src='./img/myContactHero.svg' />
+      <img className='h-48 sm:h-64 lg:h-72 xl:h-80 opacity-70 float-right' src='./img/myContactHero/myContactHero_p.svg' />
     </section>
   )
 }
