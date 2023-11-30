@@ -12,7 +12,7 @@ const Hero = () => {
       id="hero"
       className="h-auto w-screen pb-16">
       <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-4 pb-0">
-        <header className="flex items-center justify-between text-4xl sm:text-5xl xl:text-7xl px-8 sm:px-16 md:px-32 text-zinc-900 font-rubik">
+        <header className="flex items-center justify-between text-4xl sm:text-5xl xl:text-7xl px-8 sm:px-16 md:px-32 lg:pl-16 text-zinc-900 font-rubik">
           <div className="flex flex-col gap-2 sm:mt-4">
             <motion.div
               initial={{ opacity: 0 }}
@@ -33,10 +33,10 @@ const Hero = () => {
             <img src="./img/heroHero/heroHero_b.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} />
           </div>
         </header>
-        <img className="w-full h-full magic-hero" src="./img/waveHero.svg" alt="waveHero" />
+        <img className="w-full" src="./img/waveHero.svg" alt="waveHero" />
       </div>
       <div className="flex-2 flex h-auto">
-        <div className="flex-1 flex-col gap-20 px-8 sm:px-16 md:px-32">
+        <div className="flex-1 flex flex-col gap-6 md:gap-4 lg:w-1/2 px-8 sm:px-16 md:px-32 lg:px-16">
           <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl magic-text">
             <div className="flex flex-col gap-1 font-rubik">
               <h1>I'm Web</h1>
@@ -46,7 +46,7 @@ const Hero = () => {
             <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="magic-text font-extrabold opacity-80">Computer science</span> at the National University of Colombia.
             </p>
           </article>
-          <article className="flex flex-col mt-4 sm:mt-8 items-start gap-4">
+          <article className="flex flex-col items-start gap-4">
             <h1 className="font-rubik text-xl sm:text-2xl magic-text">About Me</h1>
             <div className="flex gap-4 pl-2">
               <div className="flex flex-col items-center">
@@ -64,8 +64,8 @@ const Hero = () => {
             </div>
           </article>
         </div>
-        <div className="hidden xl:block flex-1">
-          <img src="./img/heroArticle.svg" alt="hero Article" />
+        <div className="hidden flex-1 lg:relative lg:block mx-16">
+          <img src="./img/heroArticle.svg" alt="hero Article" className="absolute bottom-20" />
         </div>
       </div>
     </section>
