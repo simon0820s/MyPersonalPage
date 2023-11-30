@@ -1,7 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion"
+import { useContext } from "react"
+import { WebContext } from "../Context"
 
 const Hero = () => {
+
+  const context = useContext(WebContext)
+
   return (
     <section
       id="hero"
@@ -22,7 +27,11 @@ const Hero = () => {
               transition={{ duraction: 0.3, delay: 0.1 }}
               className="magic-text">Simón</motion.h1>
           </div>
-          <img src="./img/heroHero/heroHero_p.svg" alt="heroHeroSVG" className="w-28 sm:w-40 lg:w-52" />
+          <div className="relative w-28 h-28">
+            <img src="./img/heroHero/heroHero_p.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'p' ? '' : 'hidden'}`} />
+            <img src="./img/heroHero/heroHero_r.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'r' ? '' : 'hidden'}`} />
+            <img src="./img/heroHero/heroHero_b.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} />
+          </div>
         </header>
         <img className="w-full h-full magic-hero" src="./img/waveHero.svg" alt="waveHero" />
       </div>

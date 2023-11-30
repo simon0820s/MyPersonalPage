@@ -18,11 +18,11 @@ const Nav = () => {
     const delay = setTimeout(() => {
       document.documentElement.style.setProperty('--primary-color', `#${context.principalColor}`)
       setControlClass('')
-    }, 800)
+    }, 900)
 
 
     return () => clearTimeout(delay);
-  }, [context])
+  }, [context.principalColor])
 
   return (
     <div className="z-50 h-16 flex justify-center fixed w-screen bottom-0">

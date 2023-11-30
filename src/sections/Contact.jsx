@@ -1,7 +1,12 @@
 import { BsGithub, BsLinkedin, BsFacebook, BsWhatsapp, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion'
+import { useContext } from 'react'
+import { WebContext } from '../Context'
 
 function Contact() {
+
+  const context = useContext(WebContext)
+
   return (
     <section
       id="contact"
@@ -44,7 +49,11 @@ function Contact() {
             className='z-10'><BsTwitter /></motion.a>
         </div>
       </div>
-      <img className='h-48 sm:h-64 lg:h-72 xl:h-80 opacity-70 float-right' src='./img/myContactHero/myContactHero_p.svg' />
+      <div className='relative h-48 w-48 float-right opacity-60'>
+        <img className={`w-full h-full absolute ${context.imgSuffix == 'r' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_r.svg' />
+        <img className={`w-full h-full absolute ${context.imgSuffix == 'p' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_p.svg' />
+        <img className={`w-full h-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_b.svg' />
+      </div>
     </section>
   )
 }
