@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsFacebook, BsWhatsapp, BsTwitter } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsInstagram, BsWhatsapp, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 import { useContext } from 'react'
 import { WebContext } from '../Context'
@@ -28,6 +28,12 @@ function Contact() {
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.2, delay: 0.3 }}
+            href='https://www.instagram.com/arboledaramirezsimon/' target='_blanc'
+            className='z-10'><BsInstagram /></motion.a>
+          <motion.a
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.1 }}
             href='https://github.com/simon0820s' target='_blanc'><BsGithub /></motion.a>
           <motion.a
@@ -38,18 +44,12 @@ function Contact() {
           <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.2, delay: 0.3 }}
-            href='https://www.facebook.com/profile.php?id=100085398301902' target='_blanc'
-            className='z-10'><BsFacebook /></motion.a>
-          <motion.a
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.4 }}
             href='https://twitter.com/SimnArboleda4' target='_blanc'
             className='z-10'><BsTwitter /></motion.a>
         </div>
       </div>
-      <div className='relative h-48 w-48 float-right opacity-60'>
+      <div className='relative h-48 w-48 sm:h-56 sm:w-56 float-right opacity-60'>
         <img className={`w-full h-full absolute ${context.imgSuffix == 'r' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_r.svg' />
         <img className={`w-full h-full absolute ${context.imgSuffix == 'p' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_p.svg' />
         <img className={`w-full h-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_b.svg' />

@@ -13,8 +13,8 @@ function MyCode() {
       className="h-auto w-screen pb-10">
       <img src="./img/waveCode.svg" alt="waveCode" />
       <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
-        <article className="flex flex-col items-end gap-2 xl:w-3/4">
-          <h1 className={`text-2xl sm:text-4xl font-rubik magic-text`}>About my Code </h1>
+        <article className="flex flex-col items-end gap-2 sm:gap-4 xl:w-3/4">
+          <h1 className="text-2xl sm:text-4xl font-rubik magic-text">About my Code </h1>
           <div className='flex items-center w-full pl-10'>
             <span className='magic-bg w-2 h-2 rounded-full opacity-70'></span>
             <span className='magic-bg w-full h-0.5 opacity-60'></span>
@@ -30,14 +30,14 @@ function MyCode() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <BsGithub className='text-gray-500 text-xl sm:text-2xl' />
+            <BsGithub className='text-gray-500 text-2xl sm:text-3xl' />
           </motion.div>
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
-            className='code-button font-bold'>
+            className='code-button font-bold sm:font-extrabold text-sm'>
             <span>Look at my work</span>
           </a>
         </div>
-        <div className='flex flex-col items-center gap-4 w-72 sm:w-96 mt-16'>
+        <div className='flex flex-col items-center gap-4 w-72 sm:w-96 mt-6'>
           <img className="code-hero w-full" src={`./img/myCodeHero/myCodeHero_${context.imgSuffix}.svg`} alt="myCodeHero" />
           <span className='bg-gray-950 opacity-60 w-1/2 h-5 shadow-heroCode'></span>
         </div>

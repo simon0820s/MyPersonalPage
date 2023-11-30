@@ -13,7 +13,7 @@ const Hero = () => {
       className="h-auto w-screen pb-16">
       <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-4 pb-0">
         <header className="flex items-center justify-between text-4xl sm:text-5xl xl:text-7xl px-8 sm:px-16 text-zinc-900 font-rubik">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 sm:mt-4">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -27,7 +27,7 @@ const Hero = () => {
               transition={{ duraction: 0.3, delay: 0.1 }}
               className="magic-text">Simón</motion.h1>
           </div>
-          <div className="relative w-28 h-28">
+          <div className="relative w-28 h-28 sm:w-40 sm:h-40">
             <img src="./img/heroHero/heroHero_p.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'p' ? '' : 'hidden'}`} />
             <img src="./img/heroHero/heroHero_r.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'r' ? '' : 'hidden'}`} />
             <img src="./img/heroHero/heroHero_b.svg" alt="heroHeroSVG" className={`w-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} />
@@ -46,8 +46,8 @@ const Hero = () => {
             <p className="text-sm sm:text-base font-medium text-zinc-400">Passionate web full-stack, machine learning, and blockchain ingineer, deeply interested in the world of development since a young age, and currently studying <span className="magic-text font-extrabold opacity-80">Computer science</span> at the National University of Colombia.
             </p>
           </article>
-          <article className="flex flex-col mt-4 items-start gap-4">
-            <h1 className="font-rubik text-xl magic-text">About Me</h1>
+          <article className="flex flex-col mt-4 sm:mt-8 items-start gap-4">
+            <h1 className="font-rubik text-xl sm:text-2xl magic-text">About Me</h1>
             <div className="flex gap-4 pl-2">
               <div className="flex flex-col items-center">
                 <span className="w-2 h-2 rounded-full magic-bg"></span>
