@@ -18,7 +18,7 @@ const Nav = () => {
     const delay = setTimeout(() => {
       document.documentElement.style.setProperty('--primary-color', `#${context.principalColor}`)
       setControlClass('')
-    }, 700)
+    }, 1000)
 
 
     return () => clearTimeout(delay);
