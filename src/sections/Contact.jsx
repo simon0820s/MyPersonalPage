@@ -12,7 +12,7 @@ function Contact() {
       id="contact"
       className="bg-zinc-800 w-screen">
       <img src='./img/waveContact.svg' alt='waveContact' />
-      <div className="z-10 absolute flex flex-col px-8 gap-2">
+      <div className="z-10 absolute flex flex-col px-8 md:px-20 gap-2">
         <h1 className="text-xl sm:text-2xl xl:text-3xl magic-text font-rubik">About my contact</h1>
         <p className="opacity-80 text-sm sm:text-base font-medium">You can contact me by the following means.</p>
         <div className='z-10 flex items-center'>
@@ -49,7 +49,7 @@ function Contact() {
             className='z-10'><BsTwitter /></motion.a>
         </div>
       </div>
-      <div className='relative h-48 w-48 sm:h-56 sm:w-56 float-right opacity-60'>
+      <div className='relative h-48 w-48 sm:h-56 sm:w-56 float-right opacity-60 md:mr-8'>
         <img className={`w-full h-full absolute ${context.imgSuffix == 'r' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_r.svg' />
         <img className={`w-full h-full absolute ${context.imgSuffix == 'p' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_p.svg' />
         <img className={`w-full h-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} src='./img/myContactHero/myContactHero_b.svg' />

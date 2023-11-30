@@ -12,7 +12,7 @@ function MyCode() {
       id="myCode"
       className="h-auto w-screen pb-10">
       <img src="./img/waveCode.svg" alt="waveCode" />
-      <div className="flex flex-col gap-4 items-end px-8 sm:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
+      <div className="flex flex-col gap-4 items-end px-8 sm:px-16 md:px-32 bg-zinc-800 rounded-bl-full sm:pt-10">
         <article className="flex flex-col items-end gap-2 sm:gap-4 xl:w-3/4">
           <h1 className="text-2xl sm:text-4xl font-rubik magic-text">About my Code </h1>
           <div className='flex items-center w-full pl-10'>
@@ -33,7 +33,7 @@ function MyCode() {
             <BsGithub className='text-gray-500 text-2xl sm:text-3xl' />
           </motion.div>
           <a href='https://github.com/simon0820s' target='_blank' rel='noreferrer'
-            className='code-button font-bold sm:font-extrabold text-sm'>
+            className='code-button font-extrabold text-sm'>
             <span>Look at my work</span>
           </a>
         </div>

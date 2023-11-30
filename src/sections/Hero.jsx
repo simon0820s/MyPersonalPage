@@ -12,7 +12,7 @@ const Hero = () => {
       id="hero"
       className="h-auto w-screen pb-16">
       <div className="bg-zinc-700 flex flex-col justify-end w-screen pt-4 pb-0">
-        <header className="flex items-center justify-between text-4xl sm:text-5xl xl:text-7xl px-8 sm:px-16 text-zinc-900 font-rubik">
+        <header className="flex items-center justify-between text-4xl sm:text-5xl xl:text-7xl px-8 sm:px-16 md:px-32 text-zinc-900 font-rubik">
           <div className="flex flex-col gap-2 sm:mt-4">
             <motion.div
               initial={{ opacity: 0 }}
@@ -36,7 +36,7 @@ const Hero = () => {
         <img className="w-full h-full magic-hero" src="./img/waveHero.svg" alt="waveHero" />
       </div>
       <div className="flex-2 flex h-auto">
-        <div className="flex-1 flex-col gap-20 px-8 sm:px-16">
+        <div className="flex-1 flex-col gap-20 px-8 sm:px-16 md:px-32">
           <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl magic-text">
             <div className="flex flex-col gap-1 font-rubik">
               <h1>I'm Web</h1>
