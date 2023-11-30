@@ -38,11 +38,7 @@ function MyCode() {
           </a>
         </div>
         <div className='flex flex-col items-center gap-4 w-72 sm:w-96 mt-16'>
-          <div className='relative h-52 w-80'>
-            <img className={`code-hero w-full h-full absolute ${context.imgSuffix == 'p' ? '' : 'hidden'}`} src="./img/myCodeHero/myCodeHero_p.svg" alt="myCodeHero" />
-            <img className={`code-hero w-full h-full absolute ${context.imgSuffix == 'r' ? '' : 'hidden'}`} src="./img/myCodeHero/myCodeHero_r.svg" alt="myCodeHero" />
-            <img className={`code-hero w-full h-full absolute ${context.imgSuffix == 'b' ? '' : 'hidden'}`} src="./img/myCodeHero/myCodeHero_b.svg" alt="myCodeHero" />
-          </div>
+          <img className="code-hero w-full" src={`./img/myCodeHero/myCodeHero_${context.imgSuffix}.svg`} alt="myCodeHero" />
           <span className='bg-gray-950 opacity-60 w-1/2 h-5 shadow-heroCode'></span>
         </div>
       </div>

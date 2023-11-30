@@ -25,7 +25,7 @@ const WebContextProvider = ({ children }) => {
           setImageSuffix('p')
       }
 
-    }, 900)
+    }, 1000)
 
     return () => clearTimeout(delay)
 
