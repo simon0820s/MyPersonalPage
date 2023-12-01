@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import { WebContext } from "../Context"
+import Roll from '../components/Roll'
 
 const Hero = () => {
 
@@ -35,7 +36,7 @@ const Hero = () => {
         </header>
         <img className="w-full" src="./img/waveHero.svg" alt="waveHero" />
       </div>
-      <div className="flex-2 flex h-auto">
+      <div className="flex h-auto">
         <div className="flex-1 flex flex-col gap-6 md:gap-4 lg:w-1/2 px-8 sm:px-16 md:px-32 lg:px-16">
           <article className="flex flex-col items-start gap-4 text-3xl sm:text-4xl magic-text">
             <div className="flex flex-col gap-1 font-rubik">
@@ -65,7 +66,7 @@ const Hero = () => {
           </article>
         </div>
         <div className="hidden flex-1 lg:relative lg:block mx-16">
-          <img src="./img/heroArticle.svg" alt="hero Article" className="absolute bottom-20" />
+          <Roll />
         </div>
       </div>
     </section>

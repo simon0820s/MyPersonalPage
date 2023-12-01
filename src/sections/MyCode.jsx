@@ -2,6 +2,7 @@ import { BsGithub } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 import { useContext } from 'react'
 import { WebContext } from '../Context'
+import Roll from '../components/Roll'
 /* eslint-disable react/no-unescaped-entities */
 function MyCode() {
 
@@ -12,9 +13,9 @@ function MyCode() {
       id="myCode"
       className="h-auto w-screen pb-10">
       <img src="./img/waveCode.svg" alt="waveCode" />
-      <div className="flex gap-4 items-end px-8 sm:px-16 md:px-32 lg:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
-        <div className='hidden flex-1 lg:block'>
-          <img src="../img/moonHero.svg" alt=""/>
+      <div className="flex gap-4 items-start px-8 sm:px-16 md:px-32 lg:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
+        <div className='hidden flex-1 h-96 lg:block'>
+          <Roll />
         </div>
         <div className='flex-1 flex flex-col gap-4'>
           <article className="flex flex-col items-end gap-2 sm:gap-4 xl:w-3/4">
