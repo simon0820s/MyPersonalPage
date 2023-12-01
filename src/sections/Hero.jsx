@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
           </article>
         </div>
-        <div className="hidden flex-1 lg:relative lg:block mx-16">
+        <div className="hidden flex-1 lg:relative lg:block mr-16">
           <Roll />
         </div>
       </div>

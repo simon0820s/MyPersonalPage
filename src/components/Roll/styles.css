@@ -6,15 +6,15 @@
 
 .container .box {
   transform-style: preserve-3d;
-  animation: rotate 20s linear infinite;
+  animation: rotate 15s linear infinite;
 }
 
 @keyframes rotate {
   0% {
-    transform: perspective(1000px) rotateX(0deg) rotate(20deg);
+    transform: perspective(1000px) rotateX(0deg) rotate(10deg);
   }
   100% {
-    transform: perspective(1000px) rotateX(360deg) rotate(20deg);
+    transform: perspective(1000px) rotateX(360deg) rotate(10deg);
   }
 }
 .container .box span {
@@ -26,7 +26,7 @@
   line-height: 0.76rem;
   transform-style: preserve-3d;
   text-shadow: 0 5px 15px rgba(0.0.0.25);
-  transform: rotateX(calc(var(--i) * 22.5deg)) translateZ(60px);
+  transform: rotateX(calc(var(--i) * 20deg)) translateZ(65px);
 }
 
 .container .box span i:nth-child(1) {

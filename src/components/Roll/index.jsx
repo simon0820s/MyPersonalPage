@@ -4,9 +4,9 @@ const Roll = () => {
 
   const items = [];
 
-  for (let i = 1; i <= 16; i++) {
+  for (let i = 1; i <= 18; i++) {
     items.push(
-      <span key={i} style={{ '--i': i }} className="font-bold text-2xl"><i>Programing</i> | is <i>A</i>wesome</span>
+      <span key={i} style={{ '--i': i }} className="font-extrabold text-3xl"><i>Programing</i> | is | <i>A</i>wesome</span>
     )
   }
 
