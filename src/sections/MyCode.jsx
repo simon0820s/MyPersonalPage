@@ -13,11 +13,11 @@ function MyCode() {
       id="myCode"
       className="h-auto w-screen pb-10">
       <img src="./img/waveCode.svg" alt="waveCode" />
-      <div className="flex gap-4 items-start px-8 sm:px-16 md:px-32 lg:px-16 bg-zinc-800 rounded-bl-full sm:pt-10">
+      <div className="flex gap-4 items-start px-8 sm:px-16 md:px-32 lg:px-16 2xl:px-60 bg-zinc-800 rounded-bl-full sm:pt-10">
         <div className='hidden flex-1 h-96 lg:block'>
           <Roll />
         </div>
-        <div className='flex-1 flex flex-col gap-4'>
+        <div className='flex-1 flex flex-col items-end gap-4'>
           <article className="flex flex-col items-end gap-2 sm:gap-4 xl:w-3/4">
             <h1 className="text-2xl sm:text-4xl font-rubik magic-text">About my Code </h1>
             <div className='flex items-center w-full pl-10'>
